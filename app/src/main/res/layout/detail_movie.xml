@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/youtube2">
+
+            </com.google.android.youtube.player.YouTubePlayerView>
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/back" />
+
+    </FrameLayout>
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.han94.navigationdrawer.MainActivity"
+    android:focusableInTouchMode="false"
+    android:id="@+id/srool">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txtTenPhim1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:textColor="#ef2121"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:id="@+id/txtTheLoai1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thể loại: "
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Giới Thiệu Nội Dung:"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+                <TextView
+                    android:id="@+id/txtNoiDung"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nội dung"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:maxLines="3"/>
+
+                <TextView
+                    android:id="@+id/btnXemND"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Xem thêm ..."
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#00a6ff"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:textColor="#ffffff"
+                    android:text="Vui lòng chọn suất chiếu phim:"
+                    android:background="#ef2121"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+
+            <!--<ImageView-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--app:srcCompat="@mipmap/ic_launcher" />-->
+
+            <TextView
+                android:id="@+id/txtNgaychieu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ngay"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"/>
+
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gv_suatchieu"
+                android:numColumns="5" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+</LinearLayout>

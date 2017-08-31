@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.han94.navigationdrawer">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoapp"
+        android:label="H2N"
+        android:roundIcon="@drawable/logoapp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true"
+            android:label="H2N"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dangky_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Dangnhap_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".detail_movie"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Datve_activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Datve_Rap1"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Xacnhan_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ThongTinApp_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Thongtin_TK_Activity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".timkiemsuat"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".daodienlayout"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".lvphimdaodien"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

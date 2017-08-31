@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "700491046354",
+    "firebase_url": "https://datveonline-2cf46.firebaseio.com",
+    "project_id": "datveonline-2cf46",
+    "storage_bucket": "datveonline-2cf46.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700491046354:android:c46b82fa4ef0254b",
+        "android_client_info": {
+          "package_name": "com.example.han94.navigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700491046354-3vgno134bophns7488hi2lm5i30iqtlr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOw4CjsKS2pvZPvPVyXtqNdCWr0HWqkfQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

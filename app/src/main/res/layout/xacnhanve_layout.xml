@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#76a8ed"
+        android:id="@+id/framappbar">
+
+        <ImageButton
+            android:id="@+id/btnBack3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/back"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Xác Nhận"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imgHinhDaiDien1"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/txtTenPhim11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phim ABC"
+                android:textColor="#ef2121"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày: "
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:id="@+id/txtNgay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày: "
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Giờ: "
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:id="@+id/txtGio1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Giờ: "
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rạp: "
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:id="@+id/txtRap1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rạp: "
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ghế ngồi: "
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:id="@+id/txtghengoi1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thành tiền: "
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:id="@+id/txtTongtien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tiền "
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:textColor="#ff3535"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+                <Button
+                    android:id="@+id/btnHuyBo"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Hủy Bỏ"
+                    android:background="#f98b36"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="50dp"/>
+
+                <Button
+                    android:id="@+id/btnXacNhan"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:background="#f98b36"
+                    android:textColor="#ffffff"
+                    android:text="Xác Nhận" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
